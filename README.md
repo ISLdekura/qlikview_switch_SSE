@@ -1,13 +1,21 @@
 # Author
-deck in wonderland
+    deck in wonderland
 
 # Description
-QlikViewのsettings.iniからSSEの設定を追加/削除を行います。
+    QlikViewのsettings.iniからSSEの設定を追加/削除します。
 
-# コマンドラインオプション
+# Required File
+    作業フォルダに"plugin_string.txt"が必要です。
+
+    設定ファイルの例:
+
+        R,localhost:50051;Python,localhost:50052
+
+# Command Option
     以下のどちらかが必須
     -a, --add: SSE設定を追加
     -r, --remove: SSE設定を削除
+    
     以下のどちらかが必須
-    -d, --desktop: Desktop版のsettings.iniを参照
-    -s, --server: Server版のsettings.iniを参照
+    -d, --desktop: Desktop版のsettings.iniを編集する
+    -s, --server: Server版のsettings.iniを編集する
