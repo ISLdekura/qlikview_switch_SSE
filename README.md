@@ -6,6 +6,7 @@
 
 # Required File
     作業フォルダに"plugin_string.txt"が必要です。
+    その際「SSEPlugin=」は不要です。
 
     設定ファイルの例:
 
