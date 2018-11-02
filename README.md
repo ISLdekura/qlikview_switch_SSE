@@ -14,9 +14,16 @@
 
 # Command Option
     以下のどちらかが必須
-    -a, --add: SSE設定を追加
-    -r, --remove: SSE設定を削除
+        -a, --add: SSE設定を追加
+        -r, --remove: SSE設定を削除
     
     以下のどちらかが必須
-    -d, --desktop: Desktop版のsettings.iniを編集する
-    -s, --server: Server版のsettings.iniを編集する
+        -d, --desktop: Desktop版のsettings.iniを編集する
+        -s, --server: Server版のsettings.iniを編集する
+
+    コマンドの例:
+        Desktop版のsetting.iniを対象にSSEPlugin設定を追加します。
+        $ python qlikview_switch_SSE -a -d
+    
+        Desktop版のsetting.iniを対象にSSEPlugin設定を削除します。
+        $ python qlikview_switch_SSE -r -d
